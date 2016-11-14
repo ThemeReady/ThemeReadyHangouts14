@@ -827,7 +827,7 @@
 
 .field public static final ff:I = 0x7f0e00b1
 
-.field public static final fg:I = 0x7f0e00a2
+.field public static final fg:I = 0x7f0e00a8 # @color/bg_item_selected
 
 .field public static final fh:I = 0x7f0e0295
 
@@ -835,7 +835,7 @@
 
 .field public static final fj:I = 0x7f0e0296
 
-.field public static final fk:I = 0x7f0e024c
+.field public static final fk:I = 0x7f0e021e # @color/button_material_dark
 
 .field public static final fl:I = 0x7f0e02b4
 
@@ -1791,7 +1791,7 @@
 
 .field public static final ol:I = 0x7f040091
 
-.field public static final om:I = 0x7f0e00c9
+.field public static final om:I = 0x7f0e0085 # @color/default_bg
 
 .field public static final on:I = 0x7f0b009d
 

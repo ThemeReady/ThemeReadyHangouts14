@@ -284,6 +284,18 @@
 
     .line 2192
     new-instance v0, Landroid/text/style/TextAppearanceSpan;
+	
+	iget-object v3, p0, Ldf;->a:Landroid/content/Context;
+ 
+    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+ 
+    move-result-object v3
+ 
+    const v4, 0x7f0e00c5 # @color/quantum_black_text
+ 
+    invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getColor(I)I
+ 
+    move-result v3
 
     invoke-static {v3}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
