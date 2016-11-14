@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:paddingTop="2.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/sms_not_delivered_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/s_space" android:src="@drawable/ic_sms_delivery_not_delivered" android:layout_marginEnd="@dimen/s_space" />
+    <TextView android:id="@id/footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RealTimeChat.Message.TimeSince" />
+    <ImageView android:layout_gravity="center" android:id="@id/sms_delivered_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s_space" android:src="@drawable/ic_sms_delivery_ok" />
+</LinearLayout>

@@ -1,0 +1,102 @@
+.class final Ldxm;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:I
+
+.field final synthetic b:Ljava/util/ArrayList;
+
+.field final synthetic c:Ldxl;
+
+
+# direct methods
+.method constructor <init>(Ldxl;ILjava/util/ArrayList;)V
+    .locals 0
+
+    .prologue
+    .line 1237
+    iput-object p1, p0, Ldxm;->c:Ldxl;
+
+    iput p2, p0, Ldxm;->a:I
+
+    iput-object p3, p0, Ldxm;->b:Ljava/util/ArrayList;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 6
+
+    .prologue
+    .line 1240
+    iget-object v0, p0, Ldxm;->c:Ldxl;
+
+    iget-object v0, v0, Ldxl;->b:Ldxh;
+
+    .line 2084
+    iget-object v0, v0, Ldxh;->d:Landroid/content/Context;
+
+    .line 1240
+    const-class v1, Lflf;
+
+    invoke-static {v0, v1}, Ljwi;->a(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lflf;
+
+    invoke-interface {v0}, Lflf;->a()Lfle;
+
+    move-result-object v1
+
+    .line 1241
+    iget-object v0, p0, Ldxm;->c:Ldxl;
+
+    .line 2221
+    invoke-virtual {v0, v1}, Ldxl;->a(Lfle;)V
+
+    .line 1242
+    iget-object v0, p0, Ldxm;->c:Ldxl;
+
+    iget-object v0, v0, Ldxl;->b:Ldxh;
+
+    .line 3084
+    iget-object v0, v0, Ldxh;->d:Landroid/content/Context;
+
+    .line 1242
+    const-class v2, Lfhz;
+
+    invoke-static {v0, v2}, Ljwi;->a(Landroid/content/Context;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lfhz;
+
+    iget v2, p0, Ldxm;->a:I
+
+    .line 1244
+    invoke-static {v2}, Lfcn;->e(I)Lbib;
+
+    move-result-object v2
+
+    iget-object v3, p0, Ldxm;->b:Ljava/util/ArrayList;
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x1
+
+    .line 1243
+    invoke-interface/range {v0 .. v5}, Lfhz;->a(Lfle;Lbib;Ljava/util/ArrayList;Ljava/lang/String;Z)V
+
+    .line 1245
+    return-void
+.end method
